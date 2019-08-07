@@ -13,9 +13,9 @@ public class Tank extends GameObject {
     private int vy;
     private int angle;
 
-    private final int R = 2;
+    private final int R = 5; //TANK SPEED
     private final int ROTATIONSPEED = 3;
-    private int health = 100;
+    private int health = 20; // TANK HP
 
 
     private BufferedImage img;

@@ -12,9 +12,13 @@ public class Menu {
         grph.drawString("CONTROLS", 660, 560);
         grph.drawString("EXIT", 420, 650);
         grph.setColor(Color.black);
+        //start box
         grph.drawRoundRect(360, 416, 230, 70, 20, 20);
+        //credits box
         grph.drawRoundRect(360, 416 + 90, 230, 70, 20, 20);
+        //controls box
         grph.drawRoundRect(650, 416 + 90, 300, 70, 20, 20);
+        //EXIT BOX
         grph.drawRoundRect(360, 416 + 90 + 90, 230, 70, 20, 20);
     }
 }
